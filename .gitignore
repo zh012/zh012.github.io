@@ -47,3 +47,7 @@ docs/_build
 
 # local
 .local
+
+# pelican
+*.pid
+output

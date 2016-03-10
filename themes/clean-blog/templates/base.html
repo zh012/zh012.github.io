@@ -36,6 +36,12 @@
             <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(tag.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
         {% endif %}
 
+        <link rel="icon" type="image/png" href="/images/avatar.png" />
+
+        {% if NOTEBOOK_EXTRA_HEADER and article and article.format and ('notebook' in article.format) %}
+            {{ NOTEBOOK_EXTRA_HEADER }}
+        {% endif %}
+
         <!-- Bootstrap Core CSS -->
         <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/bootstrap.min.css" rel="stylesheet">
 
@@ -69,7 +75,6 @@
 </head>
 
 <body>
-
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container-fluid">

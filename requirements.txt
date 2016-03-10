@@ -2,3 +2,5 @@ pelican
 markdown
 typogrify
 ghp-import
+requests
+BeautifulSoup4

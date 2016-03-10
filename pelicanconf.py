@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Hui Zhang'
+AUTHOR = 'zh012'
 SITENAME = 'zh012'
 SITEURL = ''
 
@@ -48,3 +48,5 @@ DEFAULT_PAGINATION = 10
 USE_FOLDER_AS_CATEGORY = True
 
 STATIC_PATHS = ['images']
+DISPLAY_PAGES_ON_MENU = True
+DISPLAY_CATEGORIES_ON_MENU = False

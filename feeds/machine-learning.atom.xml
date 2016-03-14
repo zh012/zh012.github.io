@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>zh012</title><link href="http://zh012.github.io/" rel="alternate"></link><link href="http://zh012.github.io/feeds/machine-learning.atom.xml" rel="self"></link><id>http://zh012.github.io/</id><updated>2016-03-10T10:30:00-05:00</updated><entry><title>Mathematics tools for machine learning</title><link href="http://zh012.github.io/mathematics-tools-for-machine-learning.html" rel="alternate"></link><updated>2016-03-10T10:30:00-05:00</updated><author><name>zh012</name></author><id>tag:zh012.github.io,2016-03-10:mathematics-tools-for-machine-learning.html</id><summary type="html">&lt;h3&gt;Get an idea of the learning framework&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>zh012</title><link href="http://zh012.github.io/" rel="alternate"></link><link href="http://zh012.github.io/feeds/machine-learning.atom.xml" rel="self"></link><id>http://zh012.github.io/</id><updated>2016-03-10T10:30:00-05:00</updated><entry><title>ML-Toolkit (1) Theory</title><link href="http://zh012.github.io/ml-toolkit-1-theory.html" rel="alternate"></link><updated>2016-03-10T10:30:00-05:00</updated><author><name>zh012</name></author><id>tag:zh012.github.io,2016-03-10:ml-toolkit-1-theory.html</id><summary type="html">&lt;h3&gt;Get an idea of the learning framework&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Probably_approximately_correct_learning"&gt;Probably approximately correct (PAC) learning&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -12,10 +12,7 @@
 &lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/No_free_lunch_theorem"&gt;No free lunch theorem&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/VC_dimension"&gt;Vapnik–Chervonenkis dimension&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Justify VC bound for infinit hypothesis sets with &lt;a href="https://en.wikipedia.org/wiki/Shattered_set"&gt;Shatter Set&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/VC_dimension"&gt;Vapnik–Chervonenkis dimension&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Shattered_set"&gt;Shatter Set&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Arm some mathematic knowledge with you, in order to understand and design algorithms and optimize the cost functions&lt;/h3&gt;
@@ -51,7 +48,21 @@
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Mathematical_statistics"&gt;Some Mathematical statistics&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Receiver_operating_characteristic"&gt;Receiver operating characteristic (ROC)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Independent_and_identically_distributed_random_variables"&gt;i.i.d.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Standard_deviation"&gt;Standard deviation&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/wiki/Expected_value"&gt;Expected value&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Probability_density_function"&gt;Probability density function&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Receiver_operating_characteristic"&gt;Receiver operating characteristic (ROC)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Skewness"&gt;Skewness&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -68,7 +79,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</summary></entry><entry><title>ML-Algorithm (1) Perceptron Learning Algorithm</title><link href="http://zh012.github.io/ml-algorithm-1-perceptron-learning-algorithm.html" rel="alternate"></link><updated>2016-03-09T15:30:00-05:00</updated><author><name>zh012</name></author><id>tag:zh012.github.io,2016-03-09:ml-algorithm-1-perceptron-learning-algorithm.html</id><summary type="html">&lt;p&gt;
+&lt;/ul&gt;</summary><category term="machine learning"></category><category term="PAC"></category></entry><entry><title>ML-Algorithm (1) Perceptron Learning Algorithm</title><link href="http://zh012.github.io/ml-algorithm-1-perceptron-learning-algorithm.html" rel="alternate"></link><updated>2016-03-09T15:30:00-05:00</updated><author><name>zh012</name></author><id>tag:zh012.github.io,2016-03-09:ml-algorithm-1-perceptron-learning-algorithm.html</id><summary type="html">&lt;p&gt;
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;
 &lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
@@ -1637,4 +1648,4 @@ RK5CYII=
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;/div&gt;&lt;/p&gt;</summary></entry></feed>
+&lt;/div&gt;&lt;/p&gt;</summary><category term="machine learning"></category><category term="perceptron"></category><category term="algorithm"></category></entry></feed>

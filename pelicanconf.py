@@ -33,12 +33,7 @@ PLUGIN_PATHS = ['plugins', 'plugins/pelican-gist']
 PLUGINS = ['liquid_tags.notebook', 'render_math', 'pelican_gist']
 
 NOTEBOOK_EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
-MATH_JAX = {'tex_extensions': ['color.js', 'mhchem.js']}
-
-THEME = 'themes/clean-blog'
-COLOR_SCHEME_CSS = 'github.css'
-GITHUB_URL = 'http://github.com/zh012'
-LINKEDIN_URL = 'https://ca.linkedin.com/in/zh012'
+MATH_JAX = {'tex_extensions': ['color.js', 'mhchem.js'], 'auto_insert': True}
 
 DEFAULT_PAGINATION = 10
 
@@ -50,3 +45,8 @@ USE_FOLDER_AS_CATEGORY = True
 STATIC_PATHS = ['images']
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = True
+
+THEME = 'themes/clean-blog'
+COLOR_SCHEME_CSS = 'github.css'
+GITHUB_URL = 'http://github.com/zh012'
+LINKEDIN_URL = 'https://ca.linkedin.com/in/zh012'

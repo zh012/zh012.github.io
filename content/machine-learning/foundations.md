@@ -1,5 +1,6 @@
-Title: Mathematics tools for machine learning
+Title: ML-Toolkit (1) Theory
 Date: 2016-03-10 10:30
+Tags: machine learning, PAC
 
 
 ### Get an idea of the learning framework
@@ -12,10 +13,7 @@ Date: 2016-03-10 10:30
 
 * [No free lunch theorem](https://en.wikipedia.org/wiki/No_free_lunch_theorem)
 
-* [Vapnik–Chervonenkis dimension](https://en.wikipedia.org/wiki/VC_dimension)
-
-* Justify VC bound for infinit hypothesis sets with [Shatter Set](https://en.wikipedia.org/wiki/Shattered_set)
-
+* [Vapnik–Chervonenkis dimension](https://en.wikipedia.org/wiki/VC_dimension) and [Shatter Set](https://en.wikipedia.org/wiki/Shattered_set)
 
 ### Arm some mathematic knowledge with you, in order to understand and design algorithms and optimize the cost functions
 
@@ -37,7 +35,16 @@ Date: 2016-03-10 10:30
 
 * [Some Mathematical statistics](https://en.wikipedia.org/wiki/Mathematical_statistics)
 
+    * [i.i.d.](https://en.wikipedia.org/wiki/Independent_and_identically_distributed_random_variables)
+
+    * [Standard deviation](https://en.wikipedia.org/wiki/Standard_deviation) and [Expected value](https://en.wikipedia.org/wiki/Expected_value)
+
+    * [Probability density function](https://en.wikipedia.org/wiki/Probability_density_function)
+
     * [Receiver operating characteristic (ROC)](https://en.wikipedia.org/wiki/Receiver_operating_characteristic)
+
+    * [Skewness](https://en.wikipedia.org/wiki/Skewness)
+
 
 * [Some Mathematical Optimization](https://en.wikipedia.org/wiki/Mathematical_optimization)
 

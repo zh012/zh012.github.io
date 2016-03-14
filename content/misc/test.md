@@ -27,3 +27,43 @@ $$ \fcolorbox{red}{}{$\mathbb{P}_i$} [ |\nu - \mu| > \epsilon ] \le 2 \exp(-2\ep
 ```
 
 [gist:id=b4368d4a3f56536c1a32]
+
+
+Python test:
+
+    :::python
+    print("foo")
+
+```python
+print("foo")
+```
+
+Inside a list:
+
+1. Here is some text. Let us try the ::: version of syntax highlighting.
+
+    Only four spaces to indent:
+
+    :::python
+    print("foo")
+
+    Using eight spaces to indent:
+
+        :::python
+        print("foo")
+
+2. Now let us try the ``` version of syntax highlighting.
+
+    Only four spaces to indent:
+
+    ```python
+    print("foo")
+    ```
+
+    Using eight spaces to indent:
+
+        ```python
+        print("foo")
+        ```
+
+End of test.

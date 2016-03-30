@@ -37,7 +37,11 @@ Tags: machine learning, PAC
 
     * [i.i.d.](https://en.wikipedia.org/wiki/Independent_and_identically_distributed_random_variables)
 
+    * [p-value](https://en.wikipedia.org/wiki/P-value)
+
     * [Standard deviation](https://en.wikipedia.org/wiki/Standard_deviation) and [Expected value](https://en.wikipedia.org/wiki/Expected_value)
+
+    *[Stochastic process](https://en.wikipedia.org/wiki/Stochastic_process)
 
     * [Probability density function](https://en.wikipedia.org/wiki/Probability_density_function)
 
